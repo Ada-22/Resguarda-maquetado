@@ -1,0 +1,89 @@
+@media (max-width: 996px){
+
+    .col-md-3{
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+        max-width: 50%;
+        margin: auto;
+    }
+    
+    .white_box, .gray_box{
+        margin-bottom: 24px;
+    }
+    .ethic_line .line .message{
+        font-size: 14px;
+    }
+    .ethic_line .line h2{
+        font-size: 20px;
+    }
+    .title_line p{
+        font-size: 14px;
+        margin: 20px;
+    }
+    .line_img{
+        display: none;
+    }
+    .content_button1{
+        width: 530px;
+        padding: 30px ;
+        display: flex;
+        text-align: center;
+
+    }
+    .button1{
+        width: 500px;
+        justify-content: center;
+    }
+    
+    .certification {
+        padding: 8px;
+    }
+    .img_description{
+        padding: 0;
+    }
+    
+}
+@media (max-width: 760px){
+    .block{
+        display: none;
+    }
+    .content_button1{
+        width: 260px;
+        padding: 30px ;
+        display: flex;
+
+    }
+    .hidden{
+        display: block;
+        justify-content: center;
+    }
+    .networks{
+        font-size: 28px;
+        padding: 0 12px;
+    }
+    .description_item{
+        text-align: center;
+    }    
+}
+@media (max-width: 400px){
+    .title_banner .title{
+        font-size: 18px;
+    }
+    .col-md-3{
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+        max-width: 100%;
+        margin: auto;
+    }
+    .ethic_line .line .message{
+        font-size: 12px;
+    }
+    .ethic_line .line h2{
+        font-size: 16px;
+    }
+    .networks{
+        font-size: 24px;
+        padding: 0 10px;
+    }
+    
+}

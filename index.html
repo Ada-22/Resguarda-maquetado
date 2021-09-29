@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8c872c27f1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Landing Resguarda</title>
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light" id="menu">
+		<a class="navbar-brand" href="#"><img src="imagenes/logo.png" alt="Logo de Resguarda"></a>
+		<button onclick="togglePadding()" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="#">SERVICIOS</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">CONTACTO</a>
+				</li>
+				<li class="nav-item dropdown ">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					    <img src="imagenes/globo.png" alt="icono de planeta" class="img-fluid"> ESPAÑOL
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="blue dropdown-item" href="#">INGLES</a>
+						<a class="blue dropdown-item" href="#">PORTUGUES</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="button nav-link">IR A SITIO</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+    <main class="banner" id="banner">
+        <div class="title_banner" id="title_banner">
+            <div class="container">
+                <span class="content d-flex justify-content-center"><img src="imagenes/icon_banner.png" alt="imagen de fondo"class="img-fluid"></span>
+                <h1 class="title text-center">Línea de Denuncias/Línea Ética</h1>
+                <p class="subtitle text-center">Más de un millón de usuarios en Latinoamérica obtienen nuestros servicios:</p>
+            </div>
+        </div>    
+        <div class="box_group">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="white_box">
+                            <img src="imagenes/icon1.png" alt="ícono">
+                            <p>Implementacion<br>
+                            rápida y limpia<br>
+                            del canal
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">    
+                        <div class="gray_box">
+                            <img src="imagenes/icon2.png" alt="ícono">
+                            <p>Disponibilidad<br>
+                            24x7x365
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">    
+                        <div class="white_box">
+                            <img src="imagenes/icon3.png" alt="ícono">
+                            <p>Sofwere de Gestión<br>
+                            integrado al servicio
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">    
+                        <div class="gray_box">
+                            <img src="imagenes/icon4.png" alt="ícono">
+                            <p>Documentos y<br>
+                            Campañas de Difusion<br>
+                            incluidos
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">  
+                        <div class="white_box mb-0">
+                            <img src="imagenes/icon5.png" alt="ícono" class="small">
+                            <p>Garantía de <br>
+                                Anonimato y<br>
+                                Confidencialidad
+                            </p>
+                        </div>
+                    </div>      
+                </div>
+            </div>
+        </div>
+        <div class="box_group">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="gray_box">
+                            <img src="imagenes/icon6.png" alt="ícono">
+                            <p>Monitoreo y<br>
+                            Reportes<br>
+                            Estadísticos diarios</p>
+                        </div>
+                    </div> 
+                    <div class="col-md-3">  
+                        <div class="white_box">
+                            <img src="imagenes/icon7.png" alt="ícono">
+                            <p>Certificación 27001-<br>
+                            Seguridad de la<br>
+                            información</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">    
+                        <div class="gray_box col">
+                            <img src="imagenes/icon8.png" alt="ícono">
+                            <p>Operadores <br>
+                            Especializados y <br>
+                            Entrenados</p>
+                        </div>
+                    </div> 
+                    <div class="col-md-3">   
+                        <div class="white_box col">
+                            <img src="imagenes/icon9.png" alt="ícono">
+                            <p>Sitios exclusivos<br>
+                            para cada empresa</p>
+                        </div>
+                    </div> 
+                    <div class="d-none d-sm-none d-md-block col-md-3">    
+                        <div class="white_box invisible">
+                        </div>
+                    </div>    
+               </div>
+            </div> 
+        </div>
+    </main>
+    <div class="form_content" id="form_content">
+        <div class="container">
+            <P class="title_form">¿Quiere saber más?</P>
+            <p class="subtitle_form">Por favor complete el sigiente formulario y nos comunicaremos con usted a la brevedad</p>
+            <div class="row mt-3">
+                <div class="col">
+                    <form action="">
+                        <div class="form-group row">
+                            <div class="col-12 col-md-4 mb-3">
+                                <label for="nombre">Nombre</label>
+                                <input type="text" class="form-control" name="nombre" id="nombre">
+                            </div>
+                            <div class="col-12 col-md-4 mb-3">
+                                <label for="pass">Email</label>
+                                <input type="password" class="form-control" name="email" id="email">
+                            </div>
+                            <div class="col-12 col-md-4 mb-3">
+                                <label for="nombre">Teléfono</label>
+                                <input type="text" class="form-control" name="telefono" id="telefono">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col mb-3">
+                                <label for="mensaje" >Mensaje</label>
+                                <textarea name="mensaje" id="mensaje" class="message_form form-control"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group row d-flex justify-content-start">
+                            <div class="col-12 col-md-6 mb-3 left">
+                                <img src="imagenes/captcha.png" alt="" class="img-fluid">
+                                <!--Aquí irá el captcha y se quitará esta imagen-->
+                            </div>	
+                            <div class="col-12 col-md-6 mb-3 d-flex justify-content-end">
+                                <div class="content_button">
+                                    <a href="" class="button1" role="button" aria-pressed="true">ENVIAR</a>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="brans" id="brands">   
+        <div class="container-fluid p-0">
+            <img src="imagenes/brands.png" alt="Empresas que utilizan nuestros servicios" class="img-fluid">
+            <!--Aquí iran las imágenes de las marcas sobre un fondo gris-->
+        </div>
+    </div> 
+    <div class="ethic_line" id="ethic_line">    
+        <div class="container">
+            <P class="message mt-3">SISTEMA ADAPTABLE A TODAS LAS PLATAFORMAS</P>
+            <div class="line" >
+                <h2>Con la Línea Ética prevenga y asegure</h2>
+                <h2> a su empresa de posibles fraudes,</h2>
+                <h2>irregularidades, malas prácticas</h2>
+                <h2> internas y conductas poco éticas.</h2>
+            </div>
+            <p class="title_line">Cumplimente con todas las normativas de su región:</p>
+            <div class="list_links_regulations">
+                <ul>
+                    <li><a href="">ARGENTINA</a><span>| Resolucion CNV 622</span></li>
+                    <li><a href="">BRASIL</a><span>| Ley 12846/2013 - Programas anticorrupcion</span> </li>
+                    <li><a href="">CHILE</a><span>| Ley 20393 - Responsabilidad penal de personas jurídicas</span></li>
+                    <li><a href="">COLOMBIA</a><span>| Ley 1778/2016 - Ley Antisoborno</span></li>
+                    <li><a href="">MÉXICO</a><span>| Ley Anticorrupción</span></li>
+                    <li><a href="">USA</a><span>| FCPA - USA</span></li>
+                    <li><a href="">USA</a><span>| SOX - Sarvanes Oxley Act</span></li>
+                </ul>
+            </div>    
+            <div class="line_img float-right">
+                <img src="imagenes/lineaEtica.jpg" alt="Imagen de un dispositivo móvil" class=" img-fluid">
+            </div>
+            <div class="content_button1">
+                <a href="" class="button1 block">OBTENGA INFORMACION SOBRE NUESTROS SERVICIOS</a>
+                <a href="" class="button1 hidden">MÁS INFORMACION</a>
+            </div>
+        </div>
+    </div>
+    <div class="certification my-2" id="certification">   
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5 class="title_certification">Empresa certificada</h5>
+                    <p class="subtitle_certification">ISO 27001 SEGURIDAD DE LA INFORMACIÓN</p>
+                    <P>Sistema de Gestión de Seguridad de la Información en todo el <br>
+                    proceso de recepción, comunicación y gestión de denuncias
+                    </P>
+                </div>
+                <div class="col-md-6">
+                    <img src="imagenes/certificacion.png" alt="Imagen de certificacion">
+                </div>
+            </div>
+        </div>
+    </div> 
+    <div class="description_section" id="description">    
+        <div class="container">
+            <div class="row">
+                <div class= "col-sm-12 col-md-4 md-text-left description_item">
+                    <img src="imagenes/research.png" alt="Icono" class="img_description pb-5">
+                    <p class="title_description">Investigaciones de Fraude <br>y Asesoramiento Legal</p>
+                    <img src="imagenes/linea.png" alt="Línea divisoria" class="mb-2">
+                    <div onmouseover=" over(show1)" onmouseout="out(show1)">
+                        <p class="description" id="uno" >Auditorias forenses a todos los niveles<br>de las Organizaciones y acompañamiento<br>legal integrado a nivel regional</p>
+                        <a href="" class="link mt-3" id="show1">VER MÁS<img src="imagenes/flechita.png" alt="Flecha" class="pl-2"></a>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4  md-text-left description_item">
+                    <img src="imagenes/stadistics.png" alt="Icono" class="img_description  pb-5">
+                    <p class="title_description">Control y Prevención<br> de Fraude Ocupacional</p>
+                    <img src="imagenes/linea.png" alt="Línea divisoria" class="mb-2">
+                    <div  onmouseover="over(show2)" onmouseout="out(show2)">
+                        <p class="description" id="two" >Análisis y diseño de mapas de riesgo y<br> medidas de control de fraude simples y <br>efectivos en todo tipo de empresas</p>
+                        <a href="" class="link mt-3" id="show2">VER MÁS<img src="imagenes/flechita.png" alt="Flecha" class="pl-2"></a>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4  md-text-left description_item">
+                    <img src="imagenes/icon_networking.png" alt="Icono" class="img_description pb-5">
+                    <p class="title_description">Compliance y <br> Normas Éticas</p>
+                    <img src="imagenes/linea.png" alt="línea divisoria"class="mb-2">
+                    <div onmouseover="over(ver3)" onmouseout="out(ver3)">
+                        <p class="description" id="tres" >Soluciones orientadas a cumplimentar<br> todo tipo de normas legales y esquemas<br>de Compliance de la región</p>
+                        <a href=""class="link mt-3" id="ver3">VER MÁS<img src="imagenes/flechita.png" alt="Flecha" class="pl-2"></a>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact_section" id="contact"> 
+        <div class="container">
+            <div class="row pb-2">
+                <div class="col">
+                    <p class="contact">Contacto</p>
+                    <p class="question">¿Cómo te podemos ayudar?</p>
+                    <p class="mail">No dude en escribirnos a info@resguarda.com</p>
+                </div>    
+            </div>
+            <div class="row d-flex p-5">
+                <div class="col-md-4 text-center">
+                    <p class="question">Buenos Aires - Argentina</p>
+                    <p>25 de Mayo 555 - piso 17</p>
+                    <p>(54-11)4850-0801</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <p class="question">México City - México</p>
+                    <p>Ave Insurgentes Sur 1787 - piso 4<br>
+                    Col Guadalupe Inn México D.F.</p>
+                    <p>+52 55 5662 8201</p>   
+                </div> 
+                <div class="col-md-4 text-center">
+                    <p class="question">São Paulo - Brazil</p>
+                    <p>Rua Pretória 1147</p>
+                    <p>(+55) 5051-5955</p>
+                </div>     
+            </div>   
+        </div>
+    </div>
+    <footer id="footer">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col content_networks">
+                    <a href="" class="networks"><i class="fab fa-facebook-f"></i></a>
+                    <a href="" class="networks"><i class="fab fa-twitter"></i></a>
+                    <a href="" class="networks"><i class="fab fa-youtube"></i></a>
+                    <a href="" class="networks"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <p class="text-center">This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service Apply</p>
+        </div>
+    </footer> 
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>        
